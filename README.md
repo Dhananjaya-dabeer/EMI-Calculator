@@ -1,12 +1,26 @@
-# React + Vite
+# EMI Calculator App 🏦
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![App Preview](https://i.ibb.co/S4NQ2tg2/Screenshot-2025-05-06-at-10-45-00-PM.png) *(Upload your screenshot to Imgur or use GitHub image uploads)*
 
-Currently, two official plugins are available:
+**Live Demo:** 🌐 [https://emi-calculat0r.netlify.app/](https://emi-calculat0r.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+A responsive loan calculator that helps you:
+- Calculate monthly EMI payments
+- View detailed amortization schedules
+- Convert amounts between 160+ currencies
+- Toggle between light/dark themes
 
-## Expanding the ESLint configuration
+Built with React and Material UI, deployed on Netlify.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Key Features 🚀
+✔ **Real-time Calculations**  
+✔ **Multi-Currency Support** (USD, INR, EUR, GBP, JPY + more)  
+✔ **Interactive Amortization Table**  
+✔ **Mobile-Friendly Design**  
+✔ **Dark/Light Mode Toggle**  
+
+## How It Works 🔧
+The app uses:
+```javascript
+// EMI Calculation Formula
+EMI = (P * R * (1+R)^N) / ((1+R)^N-1)
